@@ -1,0 +1,11 @@
+[package]
+name = "tutorials"
+version = "0.1.0"
+
+[addresses]
+AptosFramework = "0x1"
+TicketTutorial = "0x5c4b100d2252356a98a028793b58a8598447e509321dc0ed756e6e8f819a08ec"
+CoreResources = "0xA550C18"
+
+[dependencies]
+AptosFramework = { local = "../aptos-core/aptos-move/framework/aptos-framework" }
